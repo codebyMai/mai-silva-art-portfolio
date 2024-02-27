@@ -20,11 +20,12 @@ body {
 /* header */
 h1  {
     font-family: Rock Salt, sans-serif;
-    font-size: 280%;
-    letter-spacing: 3px;
     color: #12263b;
     }
 
 /* main content */
-
+main {
+    flex: 1 0 auto;
+}
 /* footer */
+
