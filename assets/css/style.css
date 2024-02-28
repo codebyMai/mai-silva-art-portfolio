@@ -43,11 +43,11 @@ h1  {
 }
 #menu> li {
     margin-bottom: 1em;
-} 
+}
 .active {
     border-bottom: 1px solid #18324e;
 }
-/* navbar styles */
+/* navbar styles and toggle taken from code institute's Love Running walkthrough project */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -56,7 +56,7 @@ nav {
     padding: 0 1rem;
     display: none;
     top: 100%;
-    text-align: center;
+    text-align: right;
 }
 /* navbar toggle */
 #nav-toggle:checked~nav {
@@ -72,7 +72,35 @@ nav {
 /* main content */
 main {
     flex: 1 0 auto;
+    margin-top: 100px;
     background-color: aqua;
 }
 /* footer */
 
+/* Media query: tablets plus */
+@media screen and (min-width: 768px) {
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        padding-right: 1rem;
+        
+    }
+    #menu {
+        display: flex;
+    }
+   
+    #menu > li {
+        padding-left: 2rem;
+    }
+    .nav-toggle-label {
+        display: none;
+    }
+    #logo {
+        font-size: 250%;
+        margin: 0 1rem;
+    }
+    #menu a:hover {
+        background-color:#b1cbe7;
+    }
+}
