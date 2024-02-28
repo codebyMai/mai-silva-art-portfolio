@@ -87,13 +87,19 @@ img {
     margin: 0 auto;
     width: auto;
     display: block;
-  }
-  /* gallery */
+}
+/* gallery style */
 #photos img {
     width: 100%;
 }
 #photos {
     line-height: 0;
+}
+/* about style */
+h2 {
+    font-family: Rock Salt, sans-serif;
+    color: #12263b;
+    letter-spacing: 3px;
 }
 /* footer */
 footer {
@@ -130,11 +136,14 @@ footer {
     #menu a:hover {
         background-color:#b1cbe7;
     }
+
+    /* gallery style */
     #photos {
-        column-count: 3;
+        column-count: 2;
         column-gap: 0;
     }
 }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #hero {
