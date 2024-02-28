@@ -73,8 +73,21 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 100px;
-    background-color: aqua;
 }
+div {
+    display: block;
+    height: 100%;
+    position: fix;
+    bottom: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    width: auto;
+    display: block;
+  }
 /* footer */
 footer {
     background-color: #ffffff;
@@ -111,3 +124,15 @@ footer {
         background-color:#b1cbe7;
     }
 }
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #hero {
+        height: 680px;
+        max-width: 100%;
+        background: url("../images/rectangle-hero.webp") no-repeat center center/cover;
+        
+    } 
+    div {
+        display: none;
+    }
+}  
