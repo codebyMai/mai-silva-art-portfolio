@@ -81,13 +81,20 @@ div {
     bottom: 0;
   }
   
-  img {
+img {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
     width: auto;
     display: block;
   }
+  /* gallery */
+#photos img {
+    width: 100%;
+}
+#photos {
+    line-height: 0;
+}
 /* footer */
 footer {
     background-color: #ffffff;
@@ -123,6 +130,10 @@ footer {
     #menu a:hover {
         background-color:#b1cbe7;
     }
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+    }
 }
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -132,7 +143,7 @@ footer {
         background: url("../images/rectangle-hero.webp") no-repeat center center/cover;
         
     } 
-    div {
+    #square-hero {
         display: none;
     }
 }  
