@@ -18,14 +18,40 @@ body {
 }
 
 /* header */
+header {
+    background: #ffffff;
+    padding: 0 1rem; 
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 h1  {
     font-family: Rock Salt, sans-serif;
     color: #12263b;
+    letter-spacing: 3px;
     }
+#menu {
+    font-size: 120%;
+    list-style-type: none;
+    letter-spacing: 2px;
+}
+#menu> li {
+    margin-bottom: 1em;
+} 
+.active {
+    border-bottom: 1px solid #18324e;
+}
 
 /* main content */
 main {
     flex: 1 0 auto;
+    background-color: aqua;
 }
 /* footer */
 
