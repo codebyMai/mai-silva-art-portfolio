@@ -76,6 +76,13 @@ main {
     background-color: aqua;
 }
 /* footer */
+footer {
+    background-color: #ffffff;
+    font-family: Rock Salt, sans-serif; 
+    font-size: 70%;
+    letter-spacing: 1px;
+    text-align: center;
+}
 
 /* Media query: tablets plus */
 @media screen and (min-width: 768px) {
