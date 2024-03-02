@@ -97,17 +97,25 @@ img {
 }
 
 /* about style */
+box1 box2 {
+    width: 100%;
+    height: auto;
+}
 h2 {
     font-family: Rock Salt, sans-serif;
     color: #12263b;
     letter-spacing: 3px;
 }
-#about-img {
-    width: 100%;  
-} 
+/*#about-img {
+    width: 100%; 
+    height: auto; 
+} */
 #about #process {
     font-size: 20px;
     padding-left: 20px;
+}
+#video {
+    text-align: center;
 }
 /* footer */
 footer {
