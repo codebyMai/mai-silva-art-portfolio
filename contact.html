@@ -54,27 +54,33 @@
        <div>
         <h2>Let's work together!</h2>
         <div class="box3">
-            <form  method="POST" action=""https://formdump.codeinstitute.net"">
+            <div id="form-box">
+            <form id="form" method="POST" action="https://formdump.codeinstitute.net">
           
-              <label for="name">Name</label>
-              <input type="text" name="name" placeholder="Your name..">
+              <label for="name">Name</label><br>
+              <input type="text" name="name" placeholder="Your name.." class="input" required><br>
           
-              <label for="email">Email</label>
-              <input type="email" name="email" placeholder="Your email address..">
+              <label for="email">Email</label><br>
+              <input type="email" name="email" placeholder="Your email address.." class="input" required><br>
+              </br>
           
               <label for="type of project">Type of project</label>
               <select name="project">
                 <option value="Book illustration">Book illustration</option>
                 <option value="Editorial illustration">Editorial illustration</option>
                 <option value="Product illustration">Product illustration</option>
-              </select>
+              </select><br>
+            </br>
+              <label for="message">Message</label><br>
+              <textarea name="message" placeholder="Tell me more about the project..." style="height:200px" class="input"></textarea><br>
           
-              <label for="message">Message</label>
-              <textarea name="message" placeholder="Tell me more about the project..." style="height:200px"></textarea>
-          
-              <input type="submit" value="Submit">
+              <input type="submit" value="Submit" id="submit">
           
             </form>
+            </div>
+            <!---<div id="form_img">
+                <img src="assets\images\lizard.webp">
+            </div> -->
           </div> 
        </div>
     </main>
