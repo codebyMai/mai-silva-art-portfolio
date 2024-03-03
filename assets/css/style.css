@@ -26,6 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    z-index: 99;
 }
 header a {
     text-decoration: none;
@@ -204,12 +205,6 @@ footer {
         column-gap: 0;
     }
     /*contact*/
-    
-    /*#box3 {
-        display: flex;
-        align-items: left;
-        justify-content: left;*/
-    
     #form-img {
         height: auto;
         width: 50%;
