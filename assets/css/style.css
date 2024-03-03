@@ -118,6 +118,10 @@ h2 {
     text-align: center;
 }
 /*contact*/
+#contact-h2 {
+    background-color: #b1cbe7;
+    text-align: center;
+}
 #form-box {
     display: flex;
     flex-direction: column;
@@ -148,6 +152,17 @@ select {
     background-color:#b1cbe7 ;
     color: #12263b;
 }
+#socials i {
+    font-size: 200%;
+    color: #ffffff;
+}
+#socials {    
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none; 
+} 
 
 /* footer */
 footer {
@@ -190,6 +205,7 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+    /*contact*/
 }
 
 /* large devices (laptops and desktops, 992px and up) */
