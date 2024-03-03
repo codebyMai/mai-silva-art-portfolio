@@ -90,6 +90,9 @@ img {
     width: auto;
     display: block;
 }
+#hero-title {
+    display: none;
+}
 
 /* gallery style */
 #photos img {
