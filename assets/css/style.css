@@ -90,7 +90,7 @@ img {
     width: auto;
     display: block;
 }
-#hero-title {
+.invisible-title {
     display: none;
 }
 
