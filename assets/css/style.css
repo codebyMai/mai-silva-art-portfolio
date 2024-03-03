@@ -106,10 +106,6 @@ h2 {
     color: #12263b;
     letter-spacing: 3px;
 }
-/*#about-img {
-    width: 100%; 
-    height: auto; 
-} */
 #about #process {
     font-size: 20px;
     padding-left: 20px;
@@ -122,13 +118,14 @@ h2 {
     background-color: #b1cbe7;
     text-align: center;
 }
+
 #form-box {
     display: flex;
     flex-direction: column;
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #18324e; 
+    background-color: #18324e;
     text-align: center;
 }
 #form {
@@ -162,6 +159,7 @@ select {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none; 
+    background-color: #18324e;
 } 
 
 /* footer */
@@ -206,6 +204,17 @@ footer {
         column-gap: 0;
     }
     /*contact*/
+    
+    /*#box3 {
+        display: flex;
+        align-items: left;
+        justify-content: left;*/
+    
+    #form-img {
+        height: auto;
+        width: 50%;
+        background: url("../images/form-img.webp") no-repeat right center/cover;   
+    }
 }
 
 /* large devices (laptops and desktops, 992px and up) */
@@ -218,7 +227,11 @@ footer {
     #square-hero {
         display: none;
     }
-
+/* gallery style */
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+}
     /* about style for larger devices */
     #box1 {
         display: flex;
