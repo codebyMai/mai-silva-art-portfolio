@@ -83,7 +83,7 @@ div {
     position: fix;
     bottom: 0;
 }
-img {
+#mobile-hero {
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
@@ -225,7 +225,7 @@ footer {
         max-width: 100%;
         background: url("../images/rectangle-hero.webp") no-repeat center center/cover;   
     } 
-    #square-hero {
+    #mobile-hero {
         display: none;
     }
 
