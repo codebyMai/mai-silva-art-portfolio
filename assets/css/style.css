@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color:  #18324e;
+    color:  #0D293F;
 }
 
 /* header */
@@ -34,7 +34,7 @@ header a {
 }
 h1  {
     font-family: 'Rock Salt', sans-serif;
-    color: #12263b;
+    color: #061828;
     letter-spacing: 3px;
 }
 #menu {
@@ -46,7 +46,7 @@ h1  {
     margin-bottom: 1em;
 }
 .active {
-    border-bottom: 1px solid #18324e;
+    border-bottom: 1px solid #0D293F;
 }
 
 /* navbar styles and toggle taken from code institute's Love Running walkthrough project */
@@ -110,7 +110,7 @@ box1 box2 {
 }
 h2 {
     font-family: 'Rock Salt', sans-serif;
-    color: #12263b;
+    color: #0D293F;
     letter-spacing: 3px;
 }
 #container {
@@ -133,7 +133,7 @@ h2 {
 
 /*contact*/
 #contact-h2 {
-    background-color: #b1cbe7;
+    background-color: #9fdfe1;
     text-align: center;
 }
 #form-box {
@@ -142,7 +142,7 @@ h2 {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #18324e;
+    background-color: #0f768d;
     text-align: center;
 }
 #form {
@@ -151,11 +151,11 @@ h2 {
     padding: 20px;
 }
 .input {
-    color:#12263b;
+    color:#0d293f;
     font-size: 20px;
 }
 select {
-    color:#12263b;
+    color:#0d293f;
     font-size: 20px;  
 }
 #submit {
@@ -163,8 +163,8 @@ select {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color:#b1cbe7 ;
-    color: #12263b;
+    background-color:#9fdfe1 ;
+    color: #9fdfe1;
 }
 #socials i {
     font-size: 200%;
@@ -176,7 +176,7 @@ select {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none; 
-    background-color: #18324e;
+    background-color: #0d293f;
 }
 /* footer */
 footer {
@@ -209,7 +209,7 @@ footer {
         margin: 0 1rem;
     }
     #menu a:hover {
-        background-color:#b1cbe7;
+        background-color:#9fdfe1;
     }
 
     /* gallery style */
@@ -260,8 +260,7 @@ footer {
     }
     #video {
         width: 70vh;
-        height: 40vh;
-        
+        height: 40vh; 
     } 
     #process-txt {
         font-size: 20px;
