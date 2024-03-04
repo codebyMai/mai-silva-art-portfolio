@@ -33,7 +33,7 @@ header a {
     color: inherit;
 }
 h1  {
-    font-family: Rock Salt, sans-serif;
+    font-family: 'Rock Salt', sans-serif;
     color: #12263b;
     letter-spacing: 3px;
 }
@@ -80,7 +80,7 @@ main {
 div {
     display: block;
     height: 100%;
-    position: fix;
+    position: relative;
     bottom: 0;
 }
 #mobile-hero {
@@ -109,12 +109,18 @@ box1 box2 {
     margin-left: 20px;
 }
 h2 {
-    font-family: Rock Salt, sans-serif;
+    font-family: 'Rock Salt', sans-serif;
     color: #12263b;
     letter-spacing: 3px;
 }
 #container {
     padding: 20px;
+}
+#about-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block; 
 }
 #about-txt #process-txt {
     font-size: 20px;
@@ -175,7 +181,7 @@ select {
 /* footer */
 footer {
     background-color: #ffffff;
-    font-family: Rock Salt, sans-serif; 
+    font-family: 'Rock Salt', sans-serif; 
     font-size: 70%;
     letter-spacing: 1px;
     text-align: center;
@@ -234,11 +240,11 @@ footer {
 /* about style for larger devices */
     #box1 {
         display: flex;
-        align-items: left;
         justify-content: center;
         margin-left: 20px;
     }
     #about-img {
+        position: relative;
         width: 560px;
         height: 315px;    
     } 
@@ -250,7 +256,6 @@ footer {
     } 
     #box2 {
         display: flex;
-        align-items: left;
         justify-content: center
     }
     #video {
