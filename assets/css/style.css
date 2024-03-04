@@ -221,9 +221,9 @@ footer {
 /* large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #hero {
-        height: 680px;
+        height: 1200px;
         max-width: 100%;
-        background: url("../images/rectangle-hero.webp") no-repeat center center/cover;   
+        background: url("../images/square-hero.webp") no-repeat center center/cover;   
     } 
     #mobile-hero {
         display: none;
@@ -269,3 +269,14 @@ footer {
     }
 }
 
+/* x-large devices (desktops over 1200px) */
+/*@media screen and (min-width: 1200px) {
+    #hero {
+        height: 100%;
+        width: 100%;
+        background: url("../images/square-hero.webp") no-repeat center center/cover;   
+    } 
+    #mobile-hero {
+        display: none;
+    }
+} */
