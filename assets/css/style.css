@@ -1,5 +1,5 @@
 /* google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rock+Salt&display=swap");
 
 /* reset styles */
 * {
@@ -10,7 +10,7 @@
 
 /* general styles */
 body {
-    font-family: sans-serif;
+    font-family: 'Poppins', sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -119,9 +119,6 @@ h2 {
 #about-txt #process-txt {
     font-size: 20px;
 }
-/* #about-img {
-    padding-right: 20px;
-} */
 #video {
     position: relative;
     width: 100%;
@@ -174,8 +171,7 @@ select {
     justify-content: space-evenly;
     list-style-type: none; 
     background-color: #18324e;
-} 
-
+}
 /* footer */
 footer {
     background-color: #ffffff;
@@ -269,14 +265,3 @@ footer {
     }
 }
 
-/* x-large devices (desktops over 1200px) */
-/*@media screen and (min-width: 1200px) {
-    #hero {
-        height: 100%;
-        width: 100%;
-        background: url("../images/square-hero.webp") no-repeat center center/cover;   
-    } 
-    #mobile-hero {
-        display: none;
-    }
-} */

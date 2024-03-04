@@ -58,22 +58,22 @@
                 <form id="form" method="POST" action="https://formdump.codeinstitute.net">
           
                 <label for="name">Name</label><br>
-                <input type="text" name="name" placeholder="Your name.." class="input" required><br>
+                <input type="text" id="name" name="name" placeholder="Your name.." class="input" required><br>
           
                 <label for="email">Email</label><br>
-                <input type="email" name="email" placeholder="Your email address.." class="input" required><br>
-                </br>
+                <input type="email" id ="email" name="email" placeholder="Your email address.." class="input" required><br>
+                
 
                 <label for="type of project">Type of project</label>
-                <select name="project">
+                <select name="project" id="type of project">
                 <option value="Book illustration">Book illustration</option>
                 <option value="Editorial illustration">Editorial illustration</option>
                 <option value="Product illustration">Product illustration</option>
                 </select><br>
-                </br>
+                
 
                 <label for="message">Message</label><br>
-                <textarea name="message" placeholder="Tell me more about your project..." style="height:200px" class="input"></textarea><br>
+                <textarea name="message" id="message" placeholder="Tell me more about your project..." style="height:200px" class="input"></textarea><br>
 
                 <input type="submit" value="Submit" id="submit">
                 </form>
