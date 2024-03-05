@@ -120,7 +120,7 @@ h2 {
     width: 100%;
 }
 #photos {
-    line-height: 0;
+    line-height: 20px;
 }
 
 /*contact*/
@@ -136,6 +136,7 @@ h2 {
     height: 100%;
     background-color: #0f768d;
     text-align: center;
+    column-count: 2;
 }
 #form {
     color: #ffffff;
@@ -159,18 +160,7 @@ select {
     background-color:#9fdfe1 ;
     color: #0d293f;
 }
-#socials i {
-    font-size: 200%;
-    color: #ffffff;
-}
-#socials {    
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none; 
-    background-color: #0d293f;
-}
+
 /* footer */
 footer {
     background-color: #ffffff;
@@ -178,6 +168,21 @@ footer {
     font-size: 70%;
     letter-spacing: 1px;
     text-align: center;
+}
+#socials i {
+    font-size: 300%;
+    color: #0d293f; 
+}
+#socials {    
+    text-align: center;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+#copyright {
+    font-size: 16px;
+    padding-bottom: 20px;
 }
 
 /* Media query: tablets plus */
@@ -206,59 +211,21 @@ footer {
     }
 
     /* gallery style */
-    #photos {
+    /*#photos {
         column-count: 2;
         column-gap: 0;
-    }
+    }*/
    
 }
 
 /* large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    /*#hero {
-        height: 1200px;
-        /*max-width: 100%; 
-        padding: 20px;  
-    } */
-   
-    .about-txt {
-        font-size: 20px;
-    }
+    
 /* gallery style */
     #photos {
-        column-count: 3;
-        column-gap: 0;
+        column-count: 2;
+        column-gap: 4px;
+        padding: 10px;
 }
-
-/* about style for larger devices */
-    /*#box1 {
-        display: flex;
-        justify-content: center;
-        margin-left: 20px;
-    }
-    #about-img {
-        position: relative;
-        width: 560px;
-        height: 315px;    
-    } 
-    #about-txt {
-        font-size: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
-        width:50%;
-    } 
-    #box2 {
-        display: flex;
-        justify-content: center
-    }
-    #video {
-        width: 70vh;
-        height: 40vh; 
-    } 
-    #process-txt {
-        font-size: 20px;
-        padding-right: 20px;
-        width: 50%;
-    } */
 }
 
