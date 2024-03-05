@@ -59,7 +59,8 @@ The site was designed and developed mobile first.
 
 * Wireframes
   
-![Wireframes] (assets/docs/wfmobile.png)(assets/docs/wfdesktop.png)
+![Wireframes](assets/docs/wfmobile.png)
+![Wireframes](assets/docs/wfdesktop.png)
 
 * Colour Scheme
    
@@ -97,7 +98,7 @@ Navigation bar is responsive on all screen sizes.
 * on small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
 * clicking on the logo returns the user to the home page.
 * 
-![Navigation bar] (assets/docs/Header.png)
+![Navigation bar](assets/docs/Header.png)
 
 #### Home Page
 
@@ -143,7 +144,6 @@ Navigation bar is responsive on all screen sizes.
   * Sans serif font.
 
 The accessibility was confirmed by running it through lighthouse in devtools.
-
 
 ---
 
@@ -194,13 +194,11 @@ Following bugs were identified and fixed:
 
 ## Media
 
-
 * [Font awesome](https://fontawesome.com/icons)
-* [Iconmonstr](https://iconmonstr.com/?s=coffee)
 * [Coolors](https://coolors.co/)
 * [Google Fonts](https://fonts.google.com/)
 * [Mockup Screenshot Generator](https://ui.dev/amiresponsive)
-* [Negin Armon Youtube tutorial] (https://www.youtube.com/watch?v=mw_ybyFaqd0&t=8s) used as a placeholder for the future video content from the artist.
+* [Negin Armon Youtube tutorial](https://www.youtube.com/watch?v=mw_ybyFaqd0&t=8s) used as a placeholder for the future video content from the artist.
 
 ## Reference Material
 
@@ -213,8 +211,4 @@ Following bugs were identified and fixed:
 
 ## Acknowledgements
 
-<<<<<<< HEAD
 * Mentor and Tutor suport at Code Institute.
-=======
-* Mentor and Tutor suport at Code Institute.
->>>>>>> 6ab849e76a62a83f8ee229ef49f3da0494e584a4
