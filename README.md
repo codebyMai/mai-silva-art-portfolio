@@ -66,7 +66,7 @@ The site was designed and developed mobile first.
 * Colour Scheme
 Colour scheme was intentionally kept simple to not to distract from the artworks.
 
-![Colour Palette](docs/colour-palette.png)
+![Colour Palette](assets/docs/colour-palette.png)
 
 * Typography
 
