@@ -212,4 +212,8 @@ After asking friends to test the Mai Silva Art portfolio following bugs were ide
 
 ## Acknowledgements
 
+<<<<<<< HEAD
 * Mentor and Tutor suport at Code Institute.
+=======
+* Mentor and Tutor suport at Code Institute.
+>>>>>>> 6ab849e76a62a83f8ee229ef49f3da0494e584a4
