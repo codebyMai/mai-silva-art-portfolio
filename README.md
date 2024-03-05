@@ -58,7 +58,8 @@ The site was designed and developed mobile first.
 ## Design
 
 * Wireframes
-![Wireframes] (assets/docs/wfmobile.png)
+  
+![Wireframes] (assets/docs/wfmobile.png);
 ![Wireframes] (assets/docs/wfdesktop.png)
 
 * Colour Scheme
