@@ -24,7 +24,7 @@ Link to the live site here: <https://codebymai.github.io/mai-silva-art-portfolio
 
 * [Testing](#testing)
 
-* [Deployment]
+* [Deployment](#deployment)
 
 * [Solved Bugs](#solved-bugs)
 
@@ -97,7 +97,8 @@ Navigation bar is responsive on all screen sizes.
 * allows users to navigate easily;
 * on small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
 * clicking on the logo returns the user to the home page.
-
+* 
+![Navigation bar] (assets/docs/header.png)
 
 #### Home Page
 
