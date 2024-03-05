@@ -4,8 +4,6 @@ MaiSilvaArt is the online portfolio website of the artist and illustrator Mai Si
 ![Mai Silva Art showing  on all devices types](assets/docs/mock-up.png)
 
 
-Website structure: Gallery/ Landing page About / FAQ Contact Gallery/Landing page As the webisite is all about showcasing the artwork the gallery page was chosen to be the landing page. Mobile version showcases the artworks in one column which on the wider screens expands to three columns.
-
 ## Demo
 
 Link to the live site here: <https://codebymai.github.io/mai-silva-art-portfolio/>
@@ -64,6 +62,7 @@ The site was designed and developed mobile first.
 ![Wireframes] (assets/docs/wfdesktop.png)
 
 * Colour Scheme
+* 
 Colour scheme was intentionally kept simple to not to distract from the artworks.
 
 ![Colour Palette](assets/docs/colour-palette.png)
@@ -98,7 +97,7 @@ Navigation bar is responsive on all screen sizes.
 * on small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
 * clicking on the logo returns the user to the home page.
 * 
-![Navigation bar] (assets/docs/header.png)
+![Navigation bar] (assets/docs/Header.png)
 
 #### Home Page
 
@@ -182,7 +181,7 @@ CSS - No syntax errors were found using Jigsaw css validator.
 
 ## Solved Bugs
 
-After asking friends to test the Mai Silva Art portfolio following bugs were identified and fixed:
+Following bugs were identified and fixed:
 
 1. There was too much empty space under the hero image on mobile devices.
    * Changed hero image for mobile devices for a rectangular one.
@@ -201,6 +200,7 @@ After asking friends to test the Mai Silva Art portfolio following bugs were ide
 * [Coolors](https://coolors.co/)
 * [Google Fonts](https://fonts.google.com/)
 * [Mockup Screenshot Generator](https://ui.dev/amiresponsive)
+* [Negin Armon Youtube tutorial] (https://www.youtube.com/watch?v=mw_ybyFaqd0&t=8s) used as a placeholder for the future video content from the artist.
 
 ## Reference Material
 
