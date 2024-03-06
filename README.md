@@ -1,7 +1,7 @@
 # Mai Silva Art 
 MaiSilvaArt is the online portfolio website of the artist and illustrator Mai Silva. 
 
-![Mai Silva Art showing  on all devices types](assets/docs/mock-up.png)
+![Mai Silva Art showing  on all devices types](assets/docs/mockup.png)
 
 
 Website structure: Gallery/ Landing page About / FAQ Contact Gallery/Landing page As the webisite is all about showcasing the artwork the gallery page was chosen to be the landing page. Mobile version showcases the artworks in one column which on the wider screens expands to three columns.
@@ -24,7 +24,7 @@ Link to the live site here: <https://codebymai.github.io/mai-silva-art-portfolio
 
 * [Testing](#testing)
 
-* [Deployment]
+* [Deployment](#deployment)
 
 * [Solved Bugs](#solved-bugs)
 
@@ -64,7 +64,7 @@ The site was designed and developed mobile first.
 ![Wireframes] (assets/docs/wfdesktop.png)
 
 * Colour Scheme
-Colour scheme was intentionally kept simple to not to distract from the artworks.
+Colour scheme was intentionally kept simple to complement the artworks rather than distract form them.
 
 ![Colour Palette](docs/colour-palette.png)
 
@@ -86,54 +86,49 @@ All images used throughout the website belong to the artist- Mai Silva.
 
 ### Existing Features
 
-The website features a user-friendly interface with four pages(home, gallery, about and contact page).
+The website features a user-friendly interface with three pages(home, gallery and contact page).
 
-All pages have a logo in the right top corner and navigation bar in the left top corner.
-Footer contains copyright information.
+All pages have a logo in the top left corner and navigation bar in the top right corner as well as footer on the bottom of the page.
 Navigation bar is responsive on all screen sizes.
 
 #### Navigation Bar
 
-* allows users to navigate easily;
-* on small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
-* clicking on the logo returns the user to the home page.
+* Allows users to navigate easily.
+* On small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
+* Clicking on the logo returns the user to the home page.
 
+![Navigation Bar](assets/docs/header.png)
 
 #### Home Page
 
-* The Home page features hero-image of one of the artworks. Mobile devices and desktops showcase a different image to avoid cropping of the artwork.
-
-![Home Page](assets/docs/Index.png)
-
-#### Gallery
-* The Gallery page features images of Mai Silva artworks in single column on mobile phone screens, two columnns on tablets and three columns on laptops and desktops.
-  
-![Gallery Page](assets/docs/Gallery.png)
-
-#### About
-
-* The about page features:
+* The Home page features hero-image of one of the artworks.
+* Below the artwork there is a section containing :
 	* image from the studio;
 	* basic information about the artist;
 	* embeded Youtube video of the process; ( As the artist was not able to provide suitable video at this stage of the process the embeded video of another artist serves as a placeholder - see credits for details.)
 
+![Home Page](assets/docs/home.png)
 
-![About](assets/docs/About.png)
+#### Gallery
+* The Gallery page features images of Mai Silva's artworks in a single column on mobile phone screens and two columnns on tablets and desktops.
+  
+![Gallery Page](assets/docs/gallery.png)
 
 #### Contact Page
 
 * Contact Form consists of two mandatory fields, dropdown choice field, optional message field and submit button.
-* The form contains a validation, so the users can not submit a form without filling up all the required input fields.
+* The form contains a validation, so the users can not submit the form without filling up the required input fields.
+* The dropdown menu was included to make it clear to the users that the artist is interested in illustrative work rather than private commissions.
 
-![Contact](assets/docs/Contact.png)
-
-
+![Contact](assets/docs/contact.png)
 
 ### Potential Future Features
 
-* Lightbox gallery.
-* Integrated store.
+* Lightbox gallery
+Introduction of this feature would allow the users to enlarge and see artworks in more detail.
 
+* Integrated store
+Potentially the artist might want to start selling artprints through the website.
 
 ### Accessibility
 
