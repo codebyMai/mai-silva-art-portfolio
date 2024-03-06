@@ -89,7 +89,7 @@ main {
 }
 h2 {
     font-family: 'Rock Salt', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #0D293F;
     letter-spacing: 3px;
     text-align: center;
@@ -120,7 +120,7 @@ h2 {
     width: 100%;
 }
 #photos {
-    line-height: 20px;
+    line-height: 1em;
 }
 
 /*contact*/
@@ -226,7 +226,7 @@ footer {
         display: none;
     }
     #logo {
-        font-size: 250%;
+        font-size: 220%;
         margin: 0 1rem;
     }
     #menu a:hover {
@@ -237,13 +237,15 @@ footer {
     /*#photos {
         column-count: 2;
         column-gap: 0;
-    }*/
-   
+    }*/ 
 }
 
 /* large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-    
+#logo {
+    font-size: 250%;
+    margin: 0 1rem;
+}  
 /* gallery style */
     #photos {
         column-count: 2;
