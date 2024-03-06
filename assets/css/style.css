@@ -35,7 +35,8 @@ header a {
 h1  {
     font-family: 'Rock Salt', sans-serif;
     color: #061828;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    font-size: 140%;
 }
 #menu {
     font-size: 120%;
@@ -89,7 +90,7 @@ main {
 }
 h2 {
     font-family: 'Rock Salt', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     color: #0D293F;
     letter-spacing: 3px;
     text-align: center;
@@ -216,6 +217,9 @@ footer {
         width: fit-content;
         padding-right: 1rem;   
     }
+    h2 {
+        font-size: 25px;
+    }
     #menu {
         display: flex;
     }
@@ -232,17 +236,11 @@ footer {
     #menu a:hover {
         background-color:#9fdfe1;
     }
-
-    /* gallery style */
-    /*#photos {
-        column-count: 2;
-        column-gap: 0;
-    }*/ 
 }
 
 /* large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-#logo {
+    #logo {
     font-size: 250%;
     margin: 0 1rem;
 }  
