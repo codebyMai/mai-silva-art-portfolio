@@ -52,30 +52,48 @@
             <h2 id="contact-h2">Let's work together!</h2>
 
             <div id="form-box">
-                <form id="form" method="POST" action="https://formdump.codeinstitute.net">
-          
-                <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" placeholder="Your name.." class="input" required><br>
-          
-                <label for="email">Email</label><br>
-                <input type="email" id ="email" name="email" placeholder="Your email address.." class="input" required><br>
-                
-
-                <label for="type-of-project">Type of project</label>
-                <select name="project" id="type-of-project">
-                <option value="Book illustration">Book illustration</option>
-                <option value="Editorial illustration">Editorial illustration</option>
-                <option value="Product illustration">Product illustration</option>
-                </select><br>
-                
-
-                <label for="message">Message</label><br>
-                <textarea name="message" id="message" placeholder="Tell me more about your project..." style="height:200px" class="input"></textarea><br>
-
-                <input type="submit" value="Submit" id="submit">
+                <form  id="form" method="POST" action="https://formdump.codeinstitute.net">   
+                    <div class="row">
+                        <div class="narrow">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="wide">
+                            <input type="text" id="name" name="name" placeholder="Your name.." class="input" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="narrow">
+                             <label for="email">Email</label>
+                        </div>   
+                        <div class="wide">
+                            <input type="email" id="email" name="email" placeholder="Your email.." class="input" required>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="narrow">
+                             <label for="project">Project type</label>
+                        </div>
+                        <div class="wide">
+                            <select id="project" name="project" class="input">
+                                <option value="book">Book Illustration</option>
+                                <option value="editorial">Editorial Illustration</option>
+                                <option value="product">Product Illustration</option>
+                            </select>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <div class="narrow">
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="wide">
+                            <textarea id="message" name="message" placeholder="Tell me more about your project.." style="height:200px" class="input"></textarea>
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <input type="submit" value="Submit" id="submit">
+                    </div>   
                 </form>
-            </div>      
-            
+            </div>
         </section>        
     </main>
 
