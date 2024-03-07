@@ -133,11 +133,9 @@ As the artist was not able to provide suitable video at this stage, the embeded 
 ### Potential Future Updates and Features
 
 * Converting logo to Scalable Vector Graphics for improved responsiveness.
-
+* Downsizing images to improve performance.
 * Customized 404 page.
-
 * Lightbox gallery - introduction of this feature would allow the users to appreciate the artworks in more detail.
-
 * Integrated store - potentially in the future the artist might want to start selling artprints through the website.
 
 ---
@@ -184,7 +182,7 @@ The accessibility was confirmed by running it through lighthouse in devtools.
 ## Deployment 
 
 ### Deployment
-The page was deployed to Github.
+The page was created using VS Code and deployed to Github.
 
 1. Log in (or sign up) to Github.
 2. Navigate to the repository.
@@ -209,12 +207,12 @@ After asking friends to test the Mai Silva Art portfolio following bugs were ide
 
 ## Media
 
-
 * [Font awesome](https://fontawesome.com/icons)
 * [Iconmonstr](https://iconmonstr.com/?s=coffee)
 * [Coolors](https://coolors.co/)
 * [Google Fonts](https://fonts.google.com/)
 * [Mockup Screenshot Generator](https://ui.dev/amiresponsive)
+* [Negin Armon Youtube channel](https://www.youtube.com/watch?v=mw_ybyFaqd0&t=4s)
 
 ## Reference Material
 
