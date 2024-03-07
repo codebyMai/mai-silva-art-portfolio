@@ -1,10 +1,8 @@
 # Mai Silva Art 
-MaiSilvaArt is the online portfolio website of the artist and illustrator Mai Silva. 
+MaiSilvaArt is the online portfolio website of the artist and illustrator Mai Silva. The primary goal of the website is to showcase Mai's artwork to potential professional customers in publishing industry.
 
 ![Mai Silva Art showing  on all devices types](assets/docs/mockup.png)
 
-
-Website structure: Gallery/ Landing page About / FAQ Contact Gallery/Landing page As the webisite is all about showcasing the artwork the gallery page was chosen to be the landing page. Mobile version showcases the artworks in one column which on the wider screens expands to three columns.
 
 ## Demo
 
@@ -94,10 +92,17 @@ Navigation bar is responsive on all screen sizes.
 #### Navigation Bar
 
 * Allows users to navigate easily.
-* On small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
+* On hthe small screens navigation bar appears as a hamburger icon. Toggling feature was taken from the Love Running walk through project.
 * Clicking on the logo returns the user to the home page.
 
 ![Navigation Bar](assets/docs/header.png)
+
+#### Footer
+Footer contains:
+* The copyright information.
+* Social media links. The links take the users to the home page of the social media platforms as the website doesn't have social media profiles yet.
+
+![Footer](assets/docs/footer.png)
 
 #### Home Page
 
@@ -105,12 +110,15 @@ Navigation bar is responsive on all screen sizes.
 * Below the artwork there is a section containing :
 	* image from the studio;
 	* basic information about the artist;
-	* embeded Youtube video of the process; ( As the artist was not able to provide suitable video at this stage of the process the embeded video of another artist serves as a placeholder - see credits for details.)
+	* embeded Youtube video of the process;
+As the artist was not able to provide suitable video at this stage, the embeded video of another artist serves as a placeholder - see credits for details.
 
 ![Home Page](assets/docs/home.png)
 
 #### Gallery
-* The Gallery page features images of Mai Silva's artworks in a single column on mobile phone screens and two columnns on tablets and desktops.
+
+* The Gallery page features images of Mai Silva's artworks. 
+* By showcasing the images in a single column on the mobile phone and tablet screens and two columnns on the laptops and desktops the user gets the opportunity to appreciate details of the artworks.
   
 ![Gallery Page](assets/docs/gallery.png)
 
@@ -122,13 +130,30 @@ Navigation bar is responsive on all screen sizes.
 
 ![Contact](assets/docs/contact.png)
 
-### Potential Future Features
+### Potential Future Updates and Features
 
-* Lightbox gallery
-Introduction of this feature would allow the users to enlarge and see artworks in more detail.
+* converting logo to Scalable Vector Graphics for improved responsiveness.
 
-* Integrated store
-Potentially the artist might want to start selling artprints through the website.
+* Lightbox gallery - introduction of this feature would allow the users to appreciate the artworks in more detail.
+
+* Integrated store - potentially in the future the artist might want to start selling artprints through the website.
+
+---
+
+## Testing
+
+### W3C Validator
+
+W3C Markup Validator were used to validate each page of the project to ensure there were no syntax errors.
+
+![Home Page](assets/docs/home-validation.png)
+![Gallery Page](assets/docs/gallery-validation.png)
+![Contact Page](assets/docs/contact-validation.png)
+
+### W3C CSS Validator
+
+CSS - No syntax errors were found using Jigsaw css validator.
+![CSS](assets/docs/css-validation.png)
 
 ### Accessibility
 
@@ -139,40 +164,18 @@ Potentially the artist might want to start selling artprints through the website
 
 The accessibility was confirmed by running it through lighthouse in devtools.
 
-
 ---
-
-## Testing
-
-### W3C Validator
-
-W3C Markup Validator were used to validate each page of the project to ensure there were no syntax errors.
-
-[W3C Validator](https://validator.w3.org/)
-
-
-### W3C CSS Validator
-
-CSS - No syntax errors were found using Jigsaw css validator.
-
-[Jigsaw Validator](https://jigsaw.w3.org/css-validator/)
-
----
-
 
 ## Deployment 
 
 ### Deployment
-* the page was deployed to Github.
-
+The page was deployed to Github.
 
 1. Log in (or sign up) to Github.
-2. Find the repository for this project, P01-Allotment-garden.
-3. Click on the Settings link.
-4. Click on the Pages link in the left-hand side navigation bar.
-5. In the Source section, choose main from the drop-down select branch menu. Select Root from the drop-down select folder menu.
-6. Click Save. Your live Github Pages site is now deployed at the URL shown.
-
+2. Navigate to the repository.
+3. In Settings, under Code and Automation, select Pages.
+4. From a branch under Source select Deploy.
+5. Select the main branch
 
 ## Solved Bugs
 
@@ -200,15 +203,15 @@ After asking friends to test the Mai Silva Art portfolio following bugs were ide
 
 * [Love Running Walkthrough project](https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentecomm)
 * [Love Running Walkthrough project readme template](https://github.com/Code-Institute-Solutions/readme-template)
-* [W3 School](https://www.w3schools.com/)
-* [Stackoverflow - Back to top button](https://stackoverflow.com/search?q=back+to+top+button)
+* [W3 School](https://www.w3schools.com/howto/howto_css_responsive_form.asp)
+* [Stackoverflow](https://stackoverflow.com/)
+* [Yoast](https://yoast.com/how-to-make-youtube-videos-responsive/)
 
 ---
 
 ## Acknowledgements
 
-<<<<<<< HEAD
 * Mentor and Tutor suport at Code Institute.
-=======
-* Mentor and Tutor suport at Code Institute.
->>>>>>> 6ab849e76a62a83f8ee229ef49f3da0494e584a4
+
+
+
