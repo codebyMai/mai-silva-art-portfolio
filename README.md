@@ -171,7 +171,7 @@ The accessibility was confirmed by running it through lighthouse in devtools.
 ### Manual Testing User Stories
 
 | User Story | Testing |
-| ---------- | ------- |
+| ---------- | -------- |
 
 | As a first time user I want to find the artist's social media profiles | The user can find links to the social media in the footer on any page of the website |
 | As a first time user I want to see the artist's works | By clicking on the Gallery in the navigation bar the user is take to a gallery containing artworks |
