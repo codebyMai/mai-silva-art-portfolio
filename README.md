@@ -1,5 +1,5 @@
 # Mai Silva Art 
-MaiSilvaArt is the online portfolio website of the artist and illustrator Mai Silva. The primary goal of the website is to showcase Mai's artwork to potential professional customers in publishing industry.
+Mai Silva Art is the online portfolio website of the artist and illustrator Mai Silva. The primary goal of the website is to showcase Mai's artwork to potential professional customers in publishing industry.
 
 ![Mai Silva Art showing  on all devices types](assets/docs/mockup.png)
 
@@ -58,13 +58,13 @@ The site was designed and developed mobile first.
 ## Design
 
 * Wireframes
-![Wireframes] (assets/docs/wfmobile.png)
-![Wireframes] (assets/docs/wfdesktop.png)
+![Wireframes](assets/docs/wfmobile.png)
+![Wireframes](assets/docs/wfdesktop.png)
 
 * Colour Scheme
 Colour scheme was intentionally kept simple to complement the artworks rather than distract from them.
 
-![Colour Palette](docs/colour-palette.png)
+![Colour Palette](assets/docs/colour-palette.png)
 
 * Typography
 
@@ -170,13 +170,14 @@ The accessibility was confirmed by running it through lighthouse in devtools.
 
 ### Manual Testing User Stories
 
-| User Story | Testing |
-| ---------- | -------- |
-
-| As a first time user I want to find the artist's social media profiles | The user can find links to the social media in the footer on any page of the website |
-| As a first time user I want to see the artist's works | By clicking on the Gallery in the navigation bar the user is take to a gallery containing artworks |
-| As a returning user I want contact the artist to discuss illustration project | By clicking on Contact amd filling the form the user is able to contact the artist |
-| As a site owner I want to promote my artwork | By including social media links in the footer of the website I am giving the users option of following me across various social media platforms |
+1. As a first time user I want to find the artist's social media profiles.
+	* The user can find links to the social media in the footer on any page of the website. 
+2. As a first time user I want to see the artist's works.
+	* By clicking on the Gallery in the navigation bar the user is take to a gallery containing artworks.
+3. As a returning user I want contact the artist to discuss illustration project.
+	* By clicking on Contact amd filling the form the user is able to contact the artist.
+4. As a site owner I want to promote my artwork.
+	* By including social media links in the footer of the website I am giving the users option of following me across various social media platforms.
 
 ---
 
