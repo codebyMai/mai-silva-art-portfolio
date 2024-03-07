@@ -62,7 +62,7 @@ The site was designed and developed mobile first.
 ![Wireframes] (assets/docs/wfdesktop.png)
 
 * Colour Scheme
-Colour scheme was intentionally kept simple to complement the artworks rather than distract form them.
+Colour scheme was intentionally kept simple to complement the artworks rather than distract from them.
 
 ![Colour Palette](docs/colour-palette.png)
 
@@ -132,7 +132,9 @@ As the artist was not able to provide suitable video at this stage, the embeded 
 
 ### Potential Future Updates and Features
 
-* converting logo to Scalable Vector Graphics for improved responsiveness.
+* Converting logo to Scalable Vector Graphics for improved responsiveness.
+
+* Customized 404 page.
 
 * Lightbox gallery - introduction of this feature would allow the users to appreciate the artworks in more detail.
 
@@ -141,6 +143,8 @@ As the artist was not able to provide suitable video at this stage, the embeded 
 ---
 
 ## Testing
+
+The wbsite was manually tested to confirm it is responsive across a range of common devices.
 
 ### W3C Validator
 
@@ -164,6 +168,16 @@ CSS - No syntax errors were found using Jigsaw css validator.
 
 The accessibility was confirmed by running it through lighthouse in devtools.
 
+### Manual Testing User Stories
+
+| User Story | Testing |
+| ---------- | ------- |
+
+| As a first time user I want to find the artist's social media profiles | The user can find links to the social media in the footer on any page of the website |
+| As a first time user I want to see the artist's works | By clicking on the Gallery in the navigation bar the user is take to a gallery containing artworks |
+| As a returning user I want contact the artist to discuss illustration project | By clicking on Contact amd filling the form the user is able to contact the artist |
+| As a site owner I want to promote my artwork | By including social media links in the footer of the website I am giving the users option of following me across various social media platforms |
+
 ---
 
 ## Deployment 
@@ -185,6 +199,8 @@ After asking friends to test the Mai Silva Art portfolio following bugs were ide
    * Changed hero image for mobile devices for a rectangular one.
 2. On mobile devices text on About page was too close to the frame for reading comfort.
    * Fixed by adding padding.
+3. Logo was wrapping on smaller mobile screens instead of remaining in one line.
+   * Fixed by changing size of the font to percentage and adding media query for larger devices.   
    
 ---
 
